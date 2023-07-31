@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tujengane</title>
+    <link rel="stylesheet" href="web.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Tujengane</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop" onclick="shops()">Shops</a>
+                    <a id="about" onclick="abouts()">About</a>
+                    <a href="log in.html"><button>Sign In</button></a>
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+
+                </li>
+            </ul>
+        </nav>
+
+        <!-- mainpage -->
+
+        <div class="main">
+            <div class="mainText">
+                <h2>Tujengane</h2>
+                <h1 class="top">Delicious and Amazing</h1>
+                <h1>Taste in every bite</h1>
+                <p>All you need is a yummy Cake and Ice Cream because life can always be sweeter</p>
+                <button>Explore</button>
+            </div>
+            <img src="images/background2.jpg" alt="">
+        </div>
+
+        <!-- cards -->
+
+        <div class="trend">
+            <div class="head">
+                <h1> <span>Cakes</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="images/Vanilla cake.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Vanilla Cakes </h2>
+                        <p1>Price:$3</p1>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="crd">
+                    <img src="images/cheesecake.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Strawberry</h2>
+                        <p1>Price:$2.5</p1>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+                    <div class="crd">
+                        <img src="images/Dark Chocolate Cheesecake.jpg" alt="" onclick="show(this)">
+                        <div class="crdText">
+                            <h2>Black Forest</h2>
+                            <p1>Price:$2</p1>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Ice Cream Card -->
+
+                <div class="trend" id="trendSec">
+                    <div class="head">
+                        <h1><span>Ice Cream</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="crd">
+                            <img src="images/Sourdough Ice Cream.png" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Sourdough</h2>
+                                <p1>Price:$2.8</p1>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="images/corn icecream.jpg" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Corn</h2>
+                                <p1>Price:$1</p1>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="images/Black Forest Ice Cream.jpg" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Black Forest</h2>
+                                <p1>Price:$2</p1>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--milk-->
+               
+
+                <div class="trend" id="trendSec">
+                    <div class="head">
+                        <h1><span>Dairy Products</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="crd">
+                            <img src="images/milk1.jpg" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Milk</h2>
+                                <p1>Price:$2.3</p1>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="images/yoghurt.jpg" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Yoghurt</h2>
+                                <p1>Price:$1.8</p1>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="images/IceCream.jpg" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Milkshakes</h2>
+                                <p1>Price:$2.1</p1>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--milk-->
+               
+
+                <!-- about us -->
+
+                <div class="about">
+
+                    <div class="aboutus">
+                        <h1>#KnowUs</h1>
+                        <p>The best cake bakers and world class services.</p>
+                    </div>
+
+                    <div class="me">
+                        <img src="lap.png" alt="">
+                        <div class="aboutText">
+                            <h1>Who we are ?</h1>
+                            <p>We specialise in selling cakes,yoghurt,Milkshakes,IceCreams,Milk to order.We also have two cozy cafes. In them you can only get some of the best cakes,yoghurt,milkshakes and ice creams in the city.<br>
+                            We allow customers to order cakes according to their design at any time.</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- cart -->
+
+                 <div class="cart">
+                    <img id="newImg" src="" alt="">
+                    <div class="cartText">
+                        <h1> Offers : <br>
+                            Now</h1>
+                            <h2>Special Price</h2>
+                            <h2>$3</h2>
+                            <p>Buy 2 @ $1.5 </p>
+                            
+                           <div class="btn">
+                            <button>Buy Now</button>
+                            <button onclick="addCart()">Add to Cart</button>
+                           </div>
+                           <button  class="back">Back</button>
+
+
+
+                    </div>
+                 </div>
+                <!-- Letter -->
+
+                <div class="letter">
+                    <div class="letterText">
+                        <h1>Sign Up for NewsLetter</h1>
+                        <p>Get access to our weekly deals and offers .</p>
+                    </div>
+                    <div class="inp">
+                        <input type="text" placeholder="Enter Email">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+
+                <div class="footer">
+                    <div class="footerText">
+                        <h2>Trends</h2>
+                        <p>Service </p>
+                        <p>Customer</p>
+                        <p>Satisfaction</p>
+                        <p></p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>About US</h2>
+                        <p>+(254)742529148</p>
+                        <p>Service</p>
+                        <p>Customer</p>
+                        <p>Satisfation</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>Contact</h2>
+                        <p>+254740882928<br>
+                        +254799953143</p>
+                        <p>Customer</p>
+                        <p>Comming up</p>
+                        <p>New Products</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>Trending</h2>
+                        <p>Service</p>
+                        <p>Customer</p>
+                        <p>Shops</p>
+                        <p></p>
+
+                    </div>
+                </div>
+            </div>
+            <script src="Web.js"></script>
+</body>
+
+</html>
